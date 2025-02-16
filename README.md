@@ -203,3 +203,10 @@ ecommerce-api/
 ✅ Запуск: npm start
 ✅ API доступно на: http://localhost:5000
 ✅ Деплой через Render: https://your-app.onrender.com
+
+Скриншоты:
+![image](https://github.com/user-attachments/assets/8bb0ef2e-523a-49f1-a064-729c045cf1a1)
+![image](https://github.com/user-attachments/assets/60a09608-127d-4eac-b452-b33a5d554849)
+![image](https://github.com/user-attachments/assets/13f32511-d3cf-4e12-9be0-4ad414bb7ebe)
+
+

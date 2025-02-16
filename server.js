@@ -1,6 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
-const productRoutes = require('./routes/productRoutes');
+const productRoutes = require('./routes/productRoutes'); // <-- Импорт маршрутов
 const userRoutes = require('./routes/userRoutes');
 const orderRoutes = require('./routes/orderRoutes');
 

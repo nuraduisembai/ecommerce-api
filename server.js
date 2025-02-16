@@ -1,6 +1,6 @@
 const express = require('express');
 const connectDB = require('./config/db');
-const productRoutes = require('./routes/productRoutes'); // <-- Импорт маршрутов
+const productRoutes = require('./routes/productRoutes');
 const userRoutes = require('./routes/userRoutes');
 const orderRoutes = require('./routes/orderRoutes');
 
@@ -9,6 +9,11 @@ connectDB();
 
 const app = express();
 app.use(express.json());
+
+// Корневой маршрут (проверка работы сервера)
+app.get('/', (req, res) => {
+  res.send('API is running...');
+});
 
 // Подключение маршрутов
 app.use('/api/products', productRoutes);

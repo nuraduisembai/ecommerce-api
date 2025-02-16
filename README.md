@@ -1,3 +1,14 @@
+
+
+Student: Duisembay Nurassyl,Serikkali Raiymbek, Bekesh Madi
+Group: IT-2303
+
+Render: https://ecommerce-api-tq9n.onrender.com/api/products
+
+github: https://github.com/nuraduisembai/ecommerce-api
+
+
+
 🛒 E-Commerce API (MongoDB + Express + Node.js)
 📌 Описание
 Этот проект представляет собой RESTful API для управления пользователями, товарами и заказами с использованием Node.js, Express и MongoDB.
@@ -11,7 +22,7 @@
 
 🔧 1️⃣ Установка
 1.1. Клонирование репозитория
-git clone https://github.com/your-repo/ecommerce-api.git
+git clone https://github.com/nurad/ecommerce-api.git
 cd ecommerce-api
 
 1.2. Установка зависимостей
@@ -36,6 +47,7 @@ git commit -m "Initial commit"
 git branch -M main
 git remote add origin https://github.com/your-repo/ecommerce-api.git
 git push -u origin main
+
 2.2. Деплой на Render
 Зарегистрируйся на Render
 Создай New Web Service
